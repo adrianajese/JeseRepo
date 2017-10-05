@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppMultip</string>
+    <string name="str_button">Mudar Idioma</string>
+    <string name="str_en">Inglés</string>
+    <string name="str_es">Espanhol</string>
+    <string name="str_pt">Portugués</string>
+    <string name="str_textview">Olá Mundo!!!</string>
+</resources>
