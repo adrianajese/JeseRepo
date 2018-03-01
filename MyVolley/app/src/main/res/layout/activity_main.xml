@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.jese.myvolley.MainActivity">
+
+    <TextView
+        android:id="@+id/lblalto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alto 0"/>
+
+    <SeekBar
+        android:id="@+id/seekAlto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1920" />
+    <TextView
+        android:id="@+id/lblancho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acho 0"/>
+
+    <SeekBar
+        android:id="@+id/seekAncho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1920" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar por palabra"/>
+
+    <CheckBox
+        android:id="@+id/checkBlancoyNegro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blanco y negro" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Changos!"
+        android:onClick="clic"/>
+
+    <ImageView
+
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>
